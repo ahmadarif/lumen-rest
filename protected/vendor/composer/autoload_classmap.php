@@ -7,7 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'CreateArticlesTable' => $baseDir . '/database/migrations/2016_05_13_114915_create_articles_table.php',
-    'CreateNewsTable' => $baseDir . '/database/migrations/2016_05_13_133327_create_news_table.php',
     'DatabaseSeeder' => $baseDir . '/database/seeds/DatabaseSeeder.php',
     'ExampleTest' => $baseDir . '/tests/ExampleTest.php',
     'File_Iterator' => $vendorDir . '/phpunit/php-file-iterator/src/Iterator.php',
@@ -445,6 +444,7 @@ return array(
     'SebastianBergmann\\RecursionContext\\Exception' => $vendorDir . '/sebastian/recursion-context/src/Exception.php',
     'SebastianBergmann\\RecursionContext\\InvalidArgumentException' => $vendorDir . '/sebastian/recursion-context/src/InvalidArgumentException.php',
     'SebastianBergmann\\Version' => $vendorDir . '/sebastian/version/src/Version.php',
+    'TesAja' => $baseDir . '/database/migrations/2016_06_07_045529_tes_aja.php',
     'TestCase' => $baseDir . '/tests/TestCase.php',
     'Text_Template' => $vendorDir . '/phpunit/php-text-template/src/Template.php',
 );

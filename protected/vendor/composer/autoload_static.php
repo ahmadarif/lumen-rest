@@ -292,7 +292,6 @@ class ComposerStaticInitefdf304da85cc4b7b7fd140781a42b24
 
     public static $classMap = array (
         'CreateArticlesTable' => __DIR__ . '/../..' . '/database/migrations/2016_05_13_114915_create_articles_table.php',
-        'CreateNewsTable' => __DIR__ . '/../..' . '/database/migrations/2016_05_13_133327_create_news_table.php',
         'DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/DatabaseSeeder.php',
         'ExampleTest' => __DIR__ . '/../..' . '/tests/ExampleTest.php',
         'File_Iterator' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Iterator.php',
@@ -730,6 +729,7 @@ class ComposerStaticInitefdf304da85cc4b7b7fd140781a42b24
         'SebastianBergmann\\RecursionContext\\Exception' => __DIR__ . '/..' . '/sebastian/recursion-context/src/Exception.php',
         'SebastianBergmann\\RecursionContext\\InvalidArgumentException' => __DIR__ . '/..' . '/sebastian/recursion-context/src/InvalidArgumentException.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
+        'TesAja' => __DIR__ . '/../..' . '/database/migrations/2016_06_07_045529_tes_aja.php',
         'TestCase' => __DIR__ . '/../..' . '/tests/TestCase.php',
         'Text_Template' => __DIR__ . '/..' . '/phpunit/php-text-template/src/Template.php',
     );
